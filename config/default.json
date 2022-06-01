@@ -24,6 +24,15 @@
       "database": "{dbName}",
       "params": "",
       "poolSize": 5
+    },
+    "firebase":{
+      "apiKey": "",
+      "authDomain": "",
+      "projectId": "",
+      "storageBucket": "",
+      "messagingSenderId": "",
+      "appId": "",
+      "measurementId": ""
     }
   },
   "sentry": {

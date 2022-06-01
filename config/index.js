@@ -14,4 +14,5 @@ export const server = joi.attempt(config.get('server'), serverSchema);
 export const logger = joi.attempt(config.get('logger'), loggerSchema);
 export const sentry = sentryConfig;
 export const mongo = config.get('db.mongo');
+export const firebase = config.get('db.firebase');
 export const oauth2 = config.get('oauth2');

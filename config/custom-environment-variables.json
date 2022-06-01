@@ -23,6 +23,15 @@
       "database": "MONGO_DATABASE",
       "params": "MONGO_PARAMS",
       "poolSize": "MONGO_POOL_SIZE"
+    },
+    "firebase":{
+      "apiKey": "FIREBASE_API_KEY",
+      "authDomain": "FIREBASE_AUTH_DOMAIN",
+      "projectId": "FIREBASE_PROJECT_ID",
+      "storageBucket": "FIREBASE_STORAGE_BUCKET",
+      "messagingSenderId": "FIREBASE_SENDER_ID",
+      "appId": "FIREBASE_APP_ID",
+      "measurementId": "FIREBASE_MEASUREMENT_ID"
     }
   },
   "sentry": {
