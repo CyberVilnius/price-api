@@ -26,6 +26,7 @@ export const getPricesByDiscount = async (req, res) => {
 
 export const createDiscount = async (req, res) => {
   const models = await res.locals.getModels();
+  console.log(req.body);
   const discount = await models.discount.createDiscount(req.body);
 
   res.status(200).json(discount);

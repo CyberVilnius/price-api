@@ -6,8 +6,9 @@ export default (app) => {
   app.use(async (req, res, next) => {
     res.locals.getModels = async () => {
       res.locals.getModels = async () => ({
-        discount: await model.discountRepository(await db.getConnection('Discount')),
-        sportsApp: await model.sportsAppRepository(await db.getConnection('SportsApp')),
+        discount: model.discountRepository(db),
+        // TODO: whole sports app repo logic with firebase
+        // sportsApp: model.sportsAppRepository(db),
       });
       return res.locals.getModels();
     };
